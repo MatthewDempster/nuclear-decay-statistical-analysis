@@ -5,7 +5,7 @@ from scipy.optimize import curve_fit
 
 #------------------------------- Load data -------------------------------
 
-data_1 = ascii.read('Data Files/Assignment_data_1')
+data_1 = ascii.read('Data Files/Nuclear_dataset_1')
 
 t = np.array(data_1['Time'])
 r1 = np.array(data_1['R1'])
@@ -17,7 +17,7 @@ e3 = np.array(data_1['e_R3'])
 r4 = np.array(data_1['R4'])
 e4 = np.array(data_1['e_R4'])
 
-data_2 = ascii.read('Data Files/Assignment_data_2')
+data_2 = ascii.read('Data Files/Nuclear_dataset_2')
 
 t_2 = np.array(data_2['Time'])
 r1_2 = np.array(data_2['R1'])
